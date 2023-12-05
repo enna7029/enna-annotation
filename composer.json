@@ -1,19 +1,19 @@
 {
     "name": "enna/enna-annotation",
-    "description": "Annotation For Enna",
+    "description": "Apache-2.0",
     "type": "library",
     "license": "Apache-2.0",
-    "autoload": {
-        "psr-4": {
-            "Enna\\EnnaAnnotation\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "enna",
             "email": "w1069103107@outlook.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Enna\\Annotation\\": "src/"
+        }
+    },
     "require": {
         "php":"^8.0",
         "enna/framework": "dev-master",
